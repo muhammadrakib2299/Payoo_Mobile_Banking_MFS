@@ -1,5 +1,13 @@
 #Payoo_Mobile_Banking_(MFS)
 
+Live Site Link: https://67a63b0d337be00512cd4831--legendary-gingersnap-7bd20c.netlify.app/
+
+Default Login Credentials
+
+Mobile Number: 01609
+
+PIN: 1234
+
 Payoo Mobile Banking (MFS) is a simple web application that simulates a mobile financial service (MFS) platform. 
 This project focuses on user authentication, balance management, and transaction operations like adding money and cashing out.
 
@@ -17,11 +25,6 @@ Users must log in using their mobile number and PIN code.
 
 The system verifies credentials before granting access to the dashboard.
 
-Default Login Credentials
-
-Mobile Number: 01609
-
-PIN: 1234
 
 (Use these credentials to access the dashboard.)
 
