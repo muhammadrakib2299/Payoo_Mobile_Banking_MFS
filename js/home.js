@@ -33,5 +33,16 @@ document.getElementById('btn-cashout').addEventListener('click', function(e){
     else{
         alert("Wrong Pin");
     }
-
 });
+
+// Show the cash out from in UI
+document.getElementById('btn-show-cashout').addEventListener('click', function(){
+        document.getElementById('cashout-form').classList.remove('hidden');
+        document.getElementById('addmoney-form').classList.add('hidden');
+    });
+
+// Show the Add Money from in UI
+document.getElementById('btn-show-addmoney').addEventListener('click', function(){
+        document.getElementById('cashout-form').classList.add('hidden');
+        document.getElementById('addmoney-form').classList.remove('hidden');
+    });
