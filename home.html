@@ -13,12 +13,62 @@
 </head>
 <body>
     
-    <header>
-        <h1>Welcome to Home page</h1>
-    </header>
+
+
+    <main class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-3">
+
+                <!-- Avilable balance statement -->
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-value">9400</div>
+                      <div class="stat-desc">Avilable Balance</div>
+                    </div>
+                  </div>
+                <!-- Divider -->
+                <div class="divider"></div>
+                <!-- Add Money and Cashout Button -->
+                <div>
+                    <button class="btn btn-lg">Add Money</button>
+                    <button class="btn btn-lg">Cashout</button>
+                </div>
+                <!-- Divider -->
+                <div class="divider"></div>
+                <!-- start Add money form -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body">
+                        <!-- Amount input filed -->
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Amount</span>
+                        </label>
+                        <input type="email" placeholder="Enter amount" class="input input-bordered" required />
+                      </div>
+                      <!-- Pin code input filed -->
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Pin</span>
+                        </label>
+                        <input type="password" placeholder="Enter Pin" class="input input-bordered" autocomplete="off" required />
+                      </div>
+                      <!-- Add money Button -->
+                      <div class="form-control mt-6">
+                        <button class="btn btn-primary">Add Money</button>
+                      </div>
+                    </form>
+                  </div>
+                <!-- End Add money form  -->
+
+              </div>
+            </div>
+          </div>
+    </main>
 
 
     <!-- Javascript File link -->
-    <script src="./js/app.js"></script>
+    <script src="./js/home.js"></script>
 </body>
 </html>
